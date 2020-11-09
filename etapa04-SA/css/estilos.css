@@ -1,0 +1,161 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  background-color: black;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  font-weight: 500;
+  font-size: 16px;
+
+}
+
+.destak {
+  font-family: 'Special Elite', cursive;
+  font-style: unset;
+  font-size: 35px;
+  text-align: left;
+
+}
+
+
+hr {
+
+  border: 0;
+  border-top: 3px solid #b64052;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: #fcc0c5;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 80px;
+  height: 30px;
+}
+
+.logo {
+
+  cursor: pointer;
+  width: 70px;
+  height: 70px;
+}
+
+.nav {
+  list-style: none;
+  
+}
+
+.nav li {
+  display: inline-block;
+  padding: 0 15px;
+  align-items: center;
+  text-transform: uppercase;
+
+}
+
+
+.nav li a {
+  transition: all .3s ease 0s;
+  color:#be1931;
+}
+
+.nav li a:hover {
+  color: #008037;
+}
+
+.caixa {
+  height: 5px;
+  background-color: #ff0000;
+  width: 0%;
+  margin: -5px 0px 0px 0px;
+  border: none;
+  z-index: 1;
+  position: relative;
+}
+
+.caixa.anima {
+  -webkit-transition: width 4.25s linear;
+  -moz-transition: width 4.25s linear;
+  -o-transition: width 4.25s linear;
+  transition: width 4.25s linear;
+}
+.carousel-inner img {
+  
+  width: 100% ;
+  height:100% ;
+}
+
+p{
+  margin:10px;
+  align-content: center;
+  font-family: "cursiva";
+  text-justify: center ;
+  color:white;
+  
+}
+
+h1{
+  font-family: "Special Elite", "cursiva";
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+h2{
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-family: "Special Elite","cursiva";
+}
+
+
+.historia{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 0 10px
+  
+
+}
+
+.bloco{
+  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: center;
+     
+  }
+  .home{
+      
+    align-items:center;
+    width: 80px;
+    height:80px;
+
+  }
+  .produtos{
+    display: inline-block;
+    align-items: center;
+    padding: 50px;
+       
+  }
+    
+
+
+
+
